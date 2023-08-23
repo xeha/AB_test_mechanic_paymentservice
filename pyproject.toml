@@ -21,6 +21,9 @@ tqdm = "^4.65.0"
 pingouin = "^0.5.3"
 pandahouse = "^0.2.7"
 
+[tool.black]
+skip-string-normalization = "true"
+line-length = 120
 
 [build-system]
 requires = ["poetry-core"]
